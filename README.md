@@ -466,7 +466,9 @@ If you are getting an _Internal Server Error_ or any other error(s), make sure t
 ```
 $ sudo cat /var/log/apache2/error.log
 ```
+There might be some errors due to different version of python or flask as well. Look for the same version. Install the same version as used while making Item Catalog Project. 
 
+Do check that all the libraries used within your project are installed as well. Even if one is missing it would lead to error. 
 ## References
 
 [1] <https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04>
@@ -474,3 +476,5 @@ $ sudo cat /var/log/apache2/error.log
 [2] <http://terokarvinen.com/2016/deploy-flask-python3-on-apache2-ubuntu>
 
 [3] <https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps>
+
+[4] <https://github.com/kongling893/Linux-Server-Configuration-UDACITY>
