@@ -390,7 +390,7 @@ sudo apt-get install python-pip
 
    <VirtualHost *:80>
       ServerName 138.197.214.32
-      ServerAlias 178.128.66.43.xip.io
+      ServerAlias 138.197.214.32.xip.io
       ServerAdmin shreya28171@gmail.com
       WSGIDaemonProcess FlaskApp python-path=/var/www \
         python-home=/var/www/FlaskApp/venv
